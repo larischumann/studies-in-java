@@ -1,0 +1,23 @@
+package bytebank;
+
+public class TesteReferencia {
+	public static void main(String[] args) {
+		Conta primeiraConta = new Conta ();
+		primeiraConta.saldo = 300.00;
+		
+		System.out.println("Saldo da primeira conta: " + primeiraConta.saldo);
+		
+		Conta segundaConta = primeiraConta;
+		System.out.println("Saldo da segunda conta: " + segundaConta.saldo);
+		
+		segundaConta.saldo += 100.00;
+		System.out.println("Saldo da segunda conta (após o depósito): " + segundaConta.saldo);
+		
+		System.out.println("Saldo da primeira conta (após o depósito): " + primeiraConta.saldo);
+		
+        System.out.println(primeiraConta);
+        System.out.println(segundaConta);
+	}
+
+}
+

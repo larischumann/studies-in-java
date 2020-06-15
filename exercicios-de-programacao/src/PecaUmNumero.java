@@ -1,0 +1,15 @@
+
+public class PecaUmNumero {
+
+	//Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+	
+	public static void main(String[] args) {
+		int n=0;
+		System.out.println ("Informe um número:");
+		//n=ler.nextInt();
+		
+		System.out.println("O número informado foi " + n);
+
+	}
+
+}

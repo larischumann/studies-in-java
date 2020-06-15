@@ -1,0 +1,12 @@
+
+public class TesteFuncionario {
+	public static void main(String[] args) {
+		
+		Funcionario clau = new Funcionario ();
+		clau.setNome ("Claudete Ramos");
+		clau.setCpf("222222222-9");
+		clau.setSalario(3500.0);
+		
+	}
+
+}

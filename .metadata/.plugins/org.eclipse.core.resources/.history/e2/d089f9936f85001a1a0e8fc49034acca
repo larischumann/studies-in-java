@@ -1,0 +1,9 @@
+// Gerente herda da classe Funcionário.
+public class Gerente extends Gerencia {
+
+	@Override
+	public double getBonificacao () {
+		return super.getSalario();
+	}
+	
+}
